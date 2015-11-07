@@ -34,7 +34,7 @@ public class AnalyzerSample {
     /* main */    
     public static void main(String[] args) {
 
-	Analyzer analyzer = new JapaneseAnalyzer(Version.LUCENE_43);
+	Analyzer analyzer = new JapaneseAnalyzer();//Version.LUCENE_4_10_3
 	try {
 	    String[] stringArray = new String[] {
 		"メガネは顔の一部です。",
