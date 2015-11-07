@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="littlewings"
+		module="lucene-analyzers_2.10"
+		revision="0.0.1-SNAPSHOT"
+		conf="runtime"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151106215515"/>
+	<dependencies>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-kuromoji">
+			<revision name="4.3.0" status="release" pubdate="20130503222539" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<metadata-artifact status="no" details="" size="20995" time="0" location="/home/tanakai/.ivy2/cache/org.apache.lucene/lucene-analyzers-kuromoji/ivy-4.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-kuromoji/4.3.0/lucene-analyzers-kuromoji-4.3.0.pom"/>
+				<caller organisation="littlewings" name="lucene-analyzers_2.10" conf="compile, runtime" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-kuromoji" type="jar" ext="jar" status="no" details="" size="4489180" time="0" location="/home/tanakai/.ivy2/cache/org.apache.lucene/lucene-analyzers-kuromoji/jars/lucene-analyzers-kuromoji-4.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-kuromoji/4.3.0/lucene-analyzers-kuromoji-4.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-analyzers-common">
+			<revision name="4.3.0" status="release" pubdate="20130503222833" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="2">
+				<metadata-artifact status="no" details="" size="20803" time="0" location="/home/tanakai/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/ivy-4.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.3.0/lucene-analyzers-common-4.3.0.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-analyzers-kuromoji" conf="default, compile, runtime, master" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="4.3.0"/>
+				<caller organisation="littlewings" name="lucene-analyzers_2.10" conf="compile, runtime" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lucene-analyzers-common" type="jar" ext="jar" status="no" details="" size="1562517" time="0" location="/home/tanakai/.ivy2/cache/org.apache.lucene/lucene-analyzers-common/jars/lucene-analyzers-common-4.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-analyzers-common/4.3.0/lucene-analyzers-common-4.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.lucene" name="lucene-core">
+			<revision name="4.3.0" status="release" pubdate="20130503223413" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+				<metadata-artifact status="no" details="" size="20643" time="0" location="/home/tanakai/.ivy2/cache/org.apache.lucene/lucene-core/ivy-4.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.3.0/lucene-core-4.3.0.pom"/>
+				<caller organisation="org.apache.lucene" name="lucene-analyzers-kuromoji" conf="default, compile, runtime, master" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="4.3.0"/>
+				<caller organisation="org.apache.lucene" name="lucene-analyzers-common" conf="default, compile, runtime, master" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="4.3.0"/>
+				<caller organisation="littlewings" name="lucene-analyzers_2.10" conf="compile, runtime" rev="4.3.0" rev-constraint-default="4.3.0" rev-constraint-dynamic="4.3.0" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="lucene-core" type="jar" ext="jar" status="no" details="" size="2211020" time="0" location="/home/tanakai/.ivy2/cache/org.apache.lucene/lucene-core/jars/lucene-core-4.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/lucene/lucene-core/4.3.0/lucene-core-4.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140319064629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/home/tanakai/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="littlewings" name="lucene-analyzers_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/home/tanakai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

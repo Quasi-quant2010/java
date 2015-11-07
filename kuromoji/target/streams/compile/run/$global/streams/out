@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mRunning practice [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/tanakai/projects/git/java/sample/kuromoji-sample/target/scala-2.9.1/classes[0m
+[0m[[0mdebug[0m] [0m	/home/tanakai/projects/git/java/sample/kuromoji-sample/lib/lucene-analyzers-kuromoji-4.5.1-mecab-naist-jdic.jar[0m
+[0m[[0mdebug[0m] [0m	/home/tanakai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.9.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/tanakai/.ivy2/cache/org.atilika.kuromoji/kuromoji/jars/kuromoji-0.7.7.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0mdebug[0m] [0mSandboxed run complete..[0m
+[0m[[0mdebug[0m] [0mExited with code 0[0m
